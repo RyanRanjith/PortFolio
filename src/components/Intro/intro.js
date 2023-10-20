@@ -1,17 +1,16 @@
 import React from 'react';
 import './intro.css';
 import bg from '../../assets/Profile.JPG';
-import btnImg from '../../assets/hireme.png'
-import {Link} from 'react-scroll';
+
 
 const Intro = () => {
   return (
   <section id="intro">
      <div className="introContent">
      <span className="hello">Hello,</span>
-     <span className="introText">I'm <span className="introName">Ranjith Gopinath</span><br />Website Designer</span>
-     <p className="introPara">I am a a skilled web designer with experience in creating <br /> visually appealing and user-friendly websites.</p>
-     <Link><button className="btn"><img src={btnImg} alt="Hire Me" className='btnImg'/>Hire Me</button></Link>
+     <span className="introText">I'm <span className="introName">Ranjith Gopinath</span><br /></span>
+     <p className="introPara">2021 N Beverly Plaza, LongBeach<br></br> California,US.<br></br><br></br>+15628377828<br></br>ranjithsreekarag@gmail.com</p>
+    
      </div>
     <img src={bg} alt="Profile" className='bg' />
   </section>

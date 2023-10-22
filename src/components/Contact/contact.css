@@ -10,8 +10,10 @@
     justify-content: center;
 }
 .contactPageTitle{
+    margin-top: 10rem;
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: yellow;
     
 }
 .clientDesc{

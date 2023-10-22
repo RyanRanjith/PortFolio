@@ -75,6 +75,7 @@
 .links{
     display: flex;
     flex-wrap: wrap;
+   
 }
 
 .link{

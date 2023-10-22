@@ -7,32 +7,28 @@ import AppDesign from '../../assets/app-design.png';
 const skills = () => {
   return (
     <section id='skills'>
-        <span className="skillTitle"> What I do</span>
-        <span className="skillDesc"> This is model website creation. I created with the help of JavaScript, CSS and HTML and used ReactEmail Js for Email Communication</span>
+        <span className="skillTitle">Education</span>
+        <span className="skillDesc"> </span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>UI/UX Design</h2>
-                    <p>This is a demo text.</p>
+                    <h2>Bachelors in Electronics and Communication<br></br> 2016-2020</h2>
+
+                    <p>Anna Univeristy, Chennai, India.</p>
                 </div>
             </div>
             <div className="skillBar">
                 <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>Website Design</h2>
-                    <p>This demo text.</p>
-                </div>
-            </div>
-            <div className="skillBar">
-                <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
-                <div className="skillBarText">
-                    <h2>App Design</h2>
-                    <p>Demo Text.</p>
+                    <h2>Masters in Computer Science</h2>
+                    <p>California State University, Dominguez Hills, California,US.</p>
                 </div>
             </div>
             
-        </div>
+            </div>
+            
+        
     </section>
   );
 }

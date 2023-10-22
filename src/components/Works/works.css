@@ -22,19 +22,7 @@
     font-size: 1rem;
     max-width: 45rem;
 }
-.worksImgs{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100vw;
-    max-width: 65rem;
-}
-.worksImg{
-    object-fit: cover;
-    height: 20rem;
-    margin: 0.5rem;
-}
+
 
 .workBtn{
     margin: 3rem 0;
@@ -45,6 +33,46 @@
     font-size: 1rem;
 
 
+}
+.tp{
+   font-size: 25px;
+   position: absolute;
+   left:  7rem;
+    bottom: 21rem;
+    white-space: nowrap;
+   
+
+   
+}
+.sl{
+    font-size: 25px;
+    position: absolute;
+    left:  8rem;
+    bottom: 10rem;
+    white-space: nowrap;  
+}
+.csudh{
+    font-size: 25px;
+    position: absolute;
+    left:  8rem;
+    bottom:-0.3rem;
+    white-space: nowrap;  
+}
+
+
+.jobs {
+    display: grid;
+    position: relative;
+    right: 11rem;
+    gap: 80px;
+
+    
+}
+
+
+.wrk{
+  height: 80px;
+   
 }
 
 @media screen and (max-width:585px) {

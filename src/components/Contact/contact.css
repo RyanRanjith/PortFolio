@@ -23,15 +23,15 @@
 .clientImgs{
     display: grid;
     position: relative;
-    right: 18rem;
+    right: 23rem;
     gap: 80px;
-    margin-top: -20rem;
+    margin-top: -23rem;
     
 }
 .clientImg{
     object-fit: cover;
     width: 23%;
-    min-width: 9rem;
+    min-width: 18rem;
     margin: auto;
     padding: 0.25rem;
     border-radius: 30px;

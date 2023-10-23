@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import walmart from '../../assets/walmart.png';
-import Adobe from '../../assets/adobe.png';
+import walmart from '../../assets/parking.webp';
+import Adobe from '../../assets/hiring.jpeg';
 import Microsoft from '../../assets/microsoft.png';
 import Facebook from '../../assets/facebook.png';
 import FacebookIcon from '../../assets/facebook-icon.png';
@@ -28,15 +28,16 @@ const Contact = () => {
   return (
     <section id="contactPage">
         <div id="clients">
-        <h1 className="contactPageTitle">My Clients</h1>
-        <p className="clientDesc">I have the oppurtunity to work with a diverse
-        group of companies some of the notable companies I have worked with includes
-        </p>
+        <h1 className="contactPageTitle">My Projects</h1>
+        <span className='b'><br></br> I’ve successfully executed a project that revolves around an Intelligent Vehicle Parking System, employing a combination of C++ programming and embedded systems. This endeavor involved seamlessly integrating hardware components, notably Arduino devices and RF tags, 
+        to achieve a cohesive and functional solution. </span>
+        <span className='m'> <br></br> During my masters I and my teammates developed the application using Reactnative and 
+        SQL for hiring nearby cab drivers.</span>
+
        <div className="clientImgs">
         <img src={walmart} alt="Client" className="clientImg" />
         <img src={Adobe} alt="Client" className="clientImg" />
-        <img src={Microsoft} alt="Client" className="clientImg" />
-        <img src={Facebook} alt="Client" className="clientImg" />
+        
        </div>
         </div>
         <div id="contact">

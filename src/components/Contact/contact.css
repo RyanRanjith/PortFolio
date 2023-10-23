@@ -21,9 +21,12 @@
     font-size: 1rem;
 }
 .clientImgs{
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    position: relative;
+    right: 18rem;
+    gap: 80px;
+    margin-top: -20rem;
+    
 }
 .clientImg{
     object-fit: cover;
@@ -31,6 +34,7 @@
     min-width: 9rem;
     margin: auto;
     padding: 0.25rem;
+    border-radius: 30px;
 }
 
 #clients{
@@ -86,4 +90,24 @@
     width: 3rem;
     margin: 0 0.75rem;
 
+}
+.b{
+    font-size: 20px;
+    text-align: left;
+    display: grid;
+    position: relative;
+    left: 18rem;
+    gap: 80px;
+    margin-top: 10rem;
+    
+}
+.m{
+    font-size: 20px;
+    text-align: left;
+    display: grid;
+    position: relative;
+    left: 18rem;
+    gap: 80px;
+    margin-top: 10rem;
+    
 }

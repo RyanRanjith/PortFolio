@@ -128,7 +128,7 @@
         margin-top: 20rem;
         font-size: 10px;
         position: relative;
-        top: -1rem;
+        top: -2rem;
     }
     .m{
         text-align: center;
@@ -141,9 +141,10 @@
     .clientImgs {
     display: grid;
     position: relative;
+    top: -2rem;
     right: 1rem;
-    gap: 80px;
-    margin-top: -40rem;
+    gap: 150px;
+    margin-top: -42rem;
     
     }
    

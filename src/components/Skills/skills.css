@@ -62,13 +62,30 @@
 @media screen and (max-width:480px){
     .skillBarText>p{
         font-size: 3vw;
+
     }
     .skillBarImg{
-        height: 2.25rem;
-        width:2.25rem;
+        
+        width: fit-content;
+        height: 100px;
+
     }
     .skillBarText>h2{
         font-size: 5vw;
+        position: relative;
+        right:3rem;
+    }
+    .skillBarText>p{
+        position: relative;
+        right:3rem;
+    }
+    .skillBar{
+    display: flex;
+    margin: 1rem;
+    padding-left: -1rem;
+    padding-right: -1rem;
+    border-radius: 1rem;
+    background: rgb(50, 50, 50);
     }
     
 }

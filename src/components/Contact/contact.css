@@ -111,3 +111,40 @@
     margin-top: 10rem;
     
 }
+
+@media (max-width: 768px) {
+    .clientImg {
+        width: 100%;
+    }
+
+    .contactPageTitle {
+        margin-top: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .b {
+        text-align: center;
+        left: 0rem;
+        margin-top: 20rem;
+        font-size: 10px;
+        position: relative;
+        top: -1rem;
+    }
+    .m{
+        text-align: center;
+        left: 0rem;
+        margin-top: 20rem;
+        font-size: 10px;
+        position: relative;
+        top: -6rem;
+    }
+    .clientImgs {
+    display: grid;
+    position: relative;
+    right: 1rem;
+    gap: 80px;
+    margin-top: -40rem;
+    
+    }
+   
+}

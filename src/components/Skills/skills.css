@@ -77,14 +77,18 @@
 
     }
     .skillBarText>h2{
-        font-size: 5vw;
+        font-size: 1rem;
         position: relative;
         right:3rem;
+        text-align: center;
+        position: relative;
+        right: 3rem;
     }
     .skillBarText>p{
         position: relative;
-        right:3rem;
+        right:1rem;
     }
+    
     .skillBar{
     display: flex;
     margin: 1rem;
@@ -92,6 +96,16 @@
     padding-right: 1rem;
     border-radius: 1rem;
     background: rgb(50, 50, 50);
+    }
+    .b1{
+        font-size: 1rem;
+        position: relative;
+        right: 3rem;
+    }
+    .m1{
+        font-size: 1rem;
+        position: relative;
+        right: 2rem;
     }
     
 }

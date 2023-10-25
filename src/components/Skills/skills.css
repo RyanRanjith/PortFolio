@@ -88,8 +88,8 @@
     .skillBar{
     display: flex;
     margin: 1rem;
-    padding-left: 10px;
-    padding-right: 0;
+    padding-left: 9px;
+    padding-right: 1rem;
     border-radius: 1rem;
     background: rgb(50, 50, 50);
     }

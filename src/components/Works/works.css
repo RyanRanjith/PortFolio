@@ -80,17 +80,26 @@
 }
 
 @media screen and (max-width:585px) {
-    .worksImg{
-        height: 48vw;
+    .wrk{
+       height: 5rem;
+       width: 5rem;
+       margin-left: 3rem;
+       padding-bottom: -10px;
+       border-radius: 30px;
     }
+
    .tp{
-    font-size: 20px;
+    font-size: 1rem;
+    margin-left: 2rem;
    }
    .sl{
-    font-size: 20px;
+    font-size: 1rem;
+    margin-left: 2rem;
    }
    .csudh{
-    font-size: 20px;
+    font-size: 1rem;
+    margin-left: 2rem;
+    
    }
     
 }

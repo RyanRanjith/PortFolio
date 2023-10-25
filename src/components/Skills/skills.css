@@ -64,6 +64,12 @@
         font-size: 3vw;
 
     }
+    .skillBarText{
+        padding-left: -3rem;
+        padding-right: -3rem;
+        
+        
+    }
     .skillBarImg{
         
         width: fit-content;

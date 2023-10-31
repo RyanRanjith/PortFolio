@@ -4,11 +4,12 @@ import walmart from '../../assets/parking.webp';
 import Adobe from '../../assets/hiring.jpeg';
 import Microsoft from '../../assets/microsoft.png';
 import Facebook from '../../assets/facebook.png';
-import FacebookIcon from '../../assets/facebook-icon.png';
-import TwitterIcon from '../../assets/twitter.png';
-import YouTubeIcon from '../../assets/youtube.png';
+import FacebookIcon from '../../assets/LinkedIn_Icon.png';
+import TwitterIcon from '../../assets/Github_Icon.png';
+import YouTubeIcon from '../../assets/facebook-icon.png';
 import InstagramIcon from '../../assets/instagram.png';
 import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
   const form = useRef();
@@ -50,13 +51,23 @@ const Contact = () => {
             <textarea className="msg" name='message'  rows="5" placeholder='Your Message'></textarea>
             <button type='submit' value='Send' className="submitBtn">Submit</button>
             <div className="links">
+                  <a href="https://www.linkedin.com/in/ag-ranjith-6957011a2/">
                  <img src={FacebookIcon} alt="Facebook" className="link" />
+                 </a>
+                 <a href='https://github.com/RyanRanjith'>
                  <img src={TwitterIcon} alt="twitter" className="link" />
+                 </a>
+                 <a href='https://www.facebook.com/kingranjith.srikar'>
                  <img src={YouTubeIcon} alt="Youtube" className="link" />
+                 </a>
+                 <a href='https://www.instagram.com/ranjith_sreekar/'>
                  <img src={InstagramIcon} alt="Instagram" className="link" />
+                 </a>
         </div>
        </form>
+      
         </div>
+        
     </section>
   )
 }

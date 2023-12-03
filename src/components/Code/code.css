@@ -6,6 +6,7 @@
 }
 
 
+
 .skillsd{
     
      position: absolute;
@@ -77,6 +78,7 @@
         margin-bottom: -3rem;
         left: 10rem;
         font-size: 1.5rem;
+        overflow: hidden;
        
         
     }

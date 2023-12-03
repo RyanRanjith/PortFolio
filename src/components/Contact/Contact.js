@@ -41,7 +41,7 @@ const Contact = () => {
        </div>
         </div>
         <div id="contact">
-         <h1 className="contactPageTitle">Contact Me</h1>
+         <h1 className="contactPageTitles">Contact Me</h1>
          <span className="contactDesc">Please fill out the form below to discuss any work oppurtunities</span>
        
          <form className='contactForm' ref={form} onSubmit={sendEmail}>

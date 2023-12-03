@@ -9,13 +9,22 @@
     align-items: center;
     justify-content: center;
 }
-.contactPageTitle{
-    margin-top: 25rem;
+.contactPageTitles{
+    margin-top: 5rem;
     font-size: 3rem;
     margin-bottom: 2rem;
     color: yellow;
     
 }
+.contactPageTitle{
+    margin-top: 29rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: yellow;
+
+
+}
+
 .clientDesc{
     font-weight: 300;
     font-size: 1rem;
@@ -117,10 +126,17 @@
         width: 100%;
     }
 
-    .contactPageTitle {
-        margin-top: 22rem;
+    .contactPageTitles {
+        margin-top: 5rem;
         font-size: 1.5rem;
     }
+
+    .contactPageTitle{
+        margin-top: 25rem;
+        font-size: 1.5rem;
+
+    }
+
 
     .b {
         text-align: center;

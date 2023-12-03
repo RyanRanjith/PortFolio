@@ -3,9 +3,8 @@ import './works.css';
 import Portfolio1 from '../../assets/tp.jpeg';
 import Portfolio2 from '../../assets/sl.png';
 import Portfolio3 from '../../assets/csudh.png';
-import Portfolio4 from '../../assets/portfolio-4.png';
-import Portfolio5 from '../../assets/portfolio-5.png';
-import Portfolio6 from '../../assets/portfolio-6.png';
+
+
 
 const Works = () => {
   return (

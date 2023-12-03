@@ -2,8 +2,7 @@ import React, { useRef } from 'react';
 import './contact.css';
 import walmart from '../../assets/parking.webp';
 import Adobe from '../../assets/hiring.jpeg';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
+
 import FacebookIcon from '../../assets/LinkedIn_Icon.png';
 import TwitterIcon from '../../assets/Github_Icon.png';
 import YouTubeIcon from '../../assets/facebook-icon.png';

@@ -19,7 +19,7 @@
 }
 .pr{
     position: absolute;
-    top: 140rem;
+    top: 148rem;
     font-size: 25px;
     position: absolute;
     left:  38rem;
@@ -30,11 +30,11 @@
 }
 .ml{
     position: absolute;
-    top: 143rem;
+    top: 150rem;
     font-size: 25px;
     position: absolute;
     left:  38rem;
-    bottom: 21rem;
+    
     white-space: nowrap;
     margin-top: 10rem;
     margin-bottom: 10rem;
@@ -42,25 +42,25 @@
 }
 .wb{
     position: absolute;
-    top: 146rem;
+    top: 153rem;
     font-size: 25px;
     position: absolute;
     left:  38rem;
-    bottom: 21rem;
+    
     white-space: nowrap;
     margin-top: auto;
 }
 .p1 {
     width: 90px;
     position: absolute;
-    top: 138rem;
+    top: 146rem;
     left: 30rem;
     border-radius: 5px;
 }
 .w1{
     width: 90px;
     position: absolute;
-    top: 145rem;
+    top: 158rem;
     left: 30rem;
     border-radius: 5px;
 }

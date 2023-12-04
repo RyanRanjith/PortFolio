@@ -88,7 +88,7 @@
     .pr{
         left: 9rem; 
         margin-top: 2rem;
-        font-size: 10px;
+        font-size: 1rem;
         position: absolute;
         top: 145rem;
         
@@ -97,7 +97,7 @@
     .ml{
         left: 9rem; 
         margin-top: 2rem;
-        font-size: 10px;
+        font-size: 1rem;
         position: absolute;
         top: 150rem;
 
@@ -105,27 +105,27 @@
     .wb {
         left: 9rem; 
         margin-top: 2rem;
-        font-size: 10px;
+        font-size: 1rem;
         position: absolute;
         top: 155rem;
         
     }
 
     .p1{
-        width: 50px; 
-        left: 5rem;
+        width: 70px; 
+        left: 3rem;
         position: absolute;
         top:146rem ;
     }
     .w1{
-        width: 50px; 
-        left: 5rem;
+        width: 70px; 
+        left: 3rem;
         position: absolute;
         top: 151rem;
     }
     .a1{
-        width: 50px; 
-        left: 5rem;
+        width: 70px; 
+        left: 3rem;
         position: absolute;
         top: 156.5rem;
     }

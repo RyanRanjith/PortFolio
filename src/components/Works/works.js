@@ -16,7 +16,7 @@ const Works = () => {
           <img src={Portfolio2} alt="" className="wrk" />
           <span className='sl'> Associate-CS <br></br> January 2022 - July 2022</span>
           <img src={Portfolio3} alt="" className="wrk" />
-          <span className='csudh'> IT Analyst <br></br>March 2023 - Current</span>
+          <span className='csudh'> IT Service Management <br></br>March 2023 - Current</span>
         </div>
         
 </section>

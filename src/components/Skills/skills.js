@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.css';
-import UIDesign from '../../assets/B.png';
+import UIDesign from '../../assets/peri.jpeg';
 import WebDesign from '../../assets/csudh.png';
 import AppDesign from '../../assets/app-design.png';
 
@@ -14,7 +14,7 @@ const skills = () => {
                 <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>Bachelors in Electronics and Communication<br></br> (2016-2020)</h2>
-                  <span className='b1'>Anna Univeristy, Chennai, India.</span>
+                  <span className='b1'>Peri Institute of Technology, Chennai, India.</span>
                     {/* <p>Anna Univeristy, Chennai, India.</p> */}
                 </div>
             </div>

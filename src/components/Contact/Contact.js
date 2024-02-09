@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import './contact.css';
 import walmart from '../../assets/parking.webp';
 import Adobe from '../../assets/hiring.jpeg';
+import lin from '../../assets/lin.png';
+
 
 import FacebookIcon from '../../assets/LinkedIn_Icon.png';
 import TwitterIcon from '../../assets/Github_Icon.png';
@@ -31,12 +33,16 @@ const Contact = () => {
         <h1 className="contactPageTitle">My Projects</h1>
         <span className='b'><br></br> I’ve successfully executed a project that revolves around an Intelligent Vehicle Parking System, employing a combination of C++ programming and embedded systems. This endeavor involved seamlessly integrating hardware components, notably Arduino devices and RF tags, 
         to achieve a cohesive and functional solution. </span>
+
         <span className='m'> <br></br> During my masters I and my teammates developed the application using Reactnative and 
         SQL for hiring nearby cab drivers.</span>
 
+        <span className='n'> <br></br> For more projects please visit the linkedIn  and Github link. </span>
+
        <div className="clientImgs">
-        <img src={walmart} alt="Client" className="clientImg" />
-        <img src={Adobe} alt="Client" className="clientImg" />
+        <img src={walmart} alt="Client" className="clientImg1" />
+        <img src={Adobe} alt="Client" className="clientImg2" />
+        <img src={lin} alt="Client" className="clientImg3" />
         
        </div>
         </div>

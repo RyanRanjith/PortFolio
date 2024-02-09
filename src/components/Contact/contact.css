@@ -34,17 +34,41 @@
     position: relative;
     right: 23rem;
     gap: 80px;
+    /* lastly edited 02-07-2024 */
     margin-top: -23rem;
     
 }
-.clientImg{
+.clientImg1{
     object-fit: cover;
     width: 23%;
     min-width: 18rem;
     margin: auto;
     padding: 0.25rem;
     border-radius: 30px;
+    position: relative;
+    top: -12rem;
 }
+.clientImg2{
+    object-fit: cover;
+    width: 23%;
+    min-width: 18rem;
+    margin: auto;
+    padding: 0.25rem;
+    border-radius: 30px;
+    position: relative;
+    top: -12rem;
+}
+.clientImg3{
+    object-fit: cover;
+    width: 23%;
+    min-width: 18rem;
+    margin: auto;
+    padding: 0.25rem;
+    border-radius: 30px;
+    position: relative;
+    top: -14rem;
+}
+
 
 #clients{
     padding: 2rem;
@@ -120,6 +144,16 @@
     margin-top: 10rem;
     
 }
+.n{
+    font-size: 20px;
+    text-align: left;
+    display: grid;
+    position: relative;
+    left: 18rem;
+    gap: 80px;
+    margin-top:10rem;
+    
+}
 
 @media (max-width: 768px) {
     .clientImg {
@@ -141,10 +175,10 @@
     .b {
         text-align: center;
         left: 0rem;
-        margin-top: 20rem;
+        /* margin-top: 20rem; */
         font-size: 10px;
         position: relative;
-        top: -2rem;
+        top: 2.5rem;
     }
     .m{
         text-align: center;
@@ -152,7 +186,17 @@
         margin-top: 20rem;
         font-size: 10px;
         position: relative;
-        top: -6rem;
+        top: -1rem;
+       
+    }
+    .n{
+        text-align: center;
+        left: -1rem;
+        margin-top: 20rem;
+        font-size: 10px;
+        position: relative;
+        top: -7rem;
+
     }
     .clientImgs {
     display: grid;
@@ -161,10 +205,17 @@
     right: 1rem;
     gap: 150px;
     margin-top: -42rem;
-    
     }
+    .clientImg3{
+     width: -10%;
+     height: auto;
+
+    }
+
     .submitBtn{
         color: black;
     }
    
 }
+
+
